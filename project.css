@@ -37,8 +37,17 @@ body {
     border-radius: 10px;
 }
 .section1 {
-    background-image: cover;
-    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    top: 65px;
+    left: 600px;
+    font-size: 42px;
+    font-style: bold;
+    letter-spacing: .2rem;
 }
 .container{
     display: flex;
